@@ -1,37 +1,56 @@
 # threemetersmall_vue2_app
 
 #### 介绍
-使用vue2开发三米商城
+使用vue2重构三米商城，本仓库中的源码为三米商城前后端分离版本的 Vue 项目（Vue 版本为 2.x）。
+
+**注1：此项目属于个人学习项目，仅供学习和技术研究使用，不建议商用。**
+
+**注2：如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！**
 
 #### 软件架构
-软件架构说明
+vue2 + vuex + vue-router + webpack + vant + axios + stylus
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#####  前序准备
 
-#### 使用说明
+你需要在本地安装 [node](http://nodejs.org/) ，node 需要 6.0 以上版本
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```bash
+git clone https://gitee.com/sankeyangshu/threemetersmall_vue2_app.git
+
+cd threemetersmall_vue2_app
+
+npm install
+
+npm run dev
+```
+
+#### 后端接口以及目标
+
+前后端分离版本其他仓库：
+
+- [三米商城后端接口 threemetersmall_koa2_api](https://gitee.com/sankeyangshu/threemetersmall_koa2_api)    
+- [三米商城Vue3版本 threemetersmall_vue3_app](https://gitee.com/sankeyangshu/threemetersmall_vue3_app)  
+
+这个版本是使用vue2重构的项目，完成了我在[三米商城Vue3版本](https://gitee.com/sankeyangshu/threemetersmall_vue3_app) 中定下的其中一个目标。
+
+后续会继续开发mpvue、uniapp和react等版本，因为这个项目是个人的学习项目，所以我会把我所有会的技术都写一次这个项目。
+
+。。。敬请期待
+
+#### 项目截图
+
+请前往 [三米商城Vue3版本 ](https://gitee.com/sankeyangshu/threemetersmall_vue3_app)  查看项目截图
 
 #### 参与贡献
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
 3.  提交代码
-4.  新建 Pull Request
+4.  新建 Pull Request    
 
+#### 许可证
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[MIT License](https://gitee.com/sankeyangshu/threemetersmall_vue2_app/blob/master/LICENSE)
