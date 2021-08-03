@@ -3,7 +3,7 @@
  * @Author: 王振
  * @Date: 2021-08-02 16:01:24
  * @LastEditors: 王振
- * @LastEditTime: 2021-08-02 17:10:10
+ * @LastEditTime: 2021-08-03 09:33:47
 -->
 <template>
   <div>
@@ -49,7 +49,7 @@
             <div
               class="spec__item"
               v-for="(item, index) in items.list"
-              :key="index"
+              :key="index + item.name"
               :class="[
                 selectSpec[items.title] === item.name ? 'spec__item-active' : '',
                 item.able ? '' : 'spec__item-disabled',
@@ -127,10 +127,12 @@ export default {
     // 处理数据
     this.skuArray = this.skuList;
     // 初始化选择数据的对象
+    console.log(this.specList);
     this.specList.forEach((item) => {
-      this.selectSpec = {
-        [item.skuTitle]: "",
-      };
+      // this.selectSpec = {
+      //   [item.skuTitle]: "",
+      // };
+      this.$set(this.selectSpec, item.skuTitle, "");
     });
     // 将规格数据处理成我们视图所需要的数据类型
     this.specArray = this.specList.map((item) => {
